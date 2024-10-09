@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- page body and container -->
+    <div id="page-body-div">
+        <h1 id="title">QR code generator</h1>
+        <div class="container">
+                <h5 id="alert">enter your TEXT or URL here</h5>
+
+                <input type="text" id="input" placeholder=" TEXT or URL ">
+
+                <div id="labelSize">
+                    <label for="sizing">select size:</label>
+                    <select id="sizing">
+                        <option value="100">100x100</option>
+                        <option value="150">150x150</option>
+                        <option value="200">200x200</option>
+                    </select>
+                </div>
+
+            <h6 id="note">your QR code will generate here</h6>
+
+            <div id="qr-image-div">
+                <img src=""  alt="" id="qr-image">
+                
+            </div>
+        </div>
+       
+        <!-- buttons -->
+        <div id="buttons-div">
+
+            <button id="generate-btn">Generate</button>
+           
+            <!--  there is not any href in <button> tag. to access the href we should use <a> tag.-->
+            <a href="" id="download-btn" download="" >Download</a>
+
+           
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+   
+</body>
+</html>

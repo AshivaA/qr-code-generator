@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media (max-width: 768px) {
+
+     #page-body-div{
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+
+
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    display: flex;
+     /* vh= viewport height which means that 1vh=1%heigh so 100vh=100%heigh */
+     height: 100vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center; 
+     align-items: center;
+}
+
+#page-body-div{
+ justify-content: center;
+ align-items: center;
+
+}
+
+.container{
+    background-color: rgb(48, 171, 140);
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#input{  
+    text-align: center;
+    border-radius: 10px;
+}
+
+#labelSize{
+    display: flex;
+    flex-direction: column;
+}
+
+#sizing{
+    border-radius: 10px;
+}
+
+#note{
+    margin: 10px;
+}
+
+
+#buttons-div{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#generate-btn{
+    background-color: rgb(0, 87, 128);
+    color: beige;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#download-btn{
+    background-color: rgb(0, 87, 128);
+    color: beige;
+    border-radius: 10px;
+    padding: 2px;
+    text-decoration: none;
+   box-shadow: 1px 1px 1px 1px black;
+
+}
